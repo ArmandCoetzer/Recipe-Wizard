@@ -43,7 +43,7 @@
         </div>
         <h3>{{ response.recipes[currentRecipe].title }}</h3>
         <p>
-          <small>{{ response.recipes[currentRecipe].timestamp }}</small>
+          <small>{{ response.recipes[currentRecipe].timestamp | date:'short':'UTC'}}</small>
         </p>
         <br />
         <p>Ingredients</p>
