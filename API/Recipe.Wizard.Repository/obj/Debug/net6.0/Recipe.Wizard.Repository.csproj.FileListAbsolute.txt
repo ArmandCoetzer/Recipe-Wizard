@@ -10,3 +10,15 @@ C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Repository\obj\Debug\net
 C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Repository\obj\Debug\net6.0\refint\Recipe.Wizard.Repository.dll
 C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Repository\obj\Debug\net6.0\Recipe.Wizard.Repository.pdb
 C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Repository\obj\Debug\net6.0\ref\Recipe.Wizard.Repository.dll
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\bin\Debug\net6.0\Recipe.Wizard.Repository.deps.json
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\bin\Debug\net6.0\Recipe.Wizard.Repository.dll
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\bin\Debug\net6.0\Recipe.Wizard.Repository.pdb
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\obj\Debug\net6.0\Recipe.Wizard.Repository.csproj.AssemblyReference.cache
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\obj\Debug\net6.0\Recipe.Wizard.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\obj\Debug\net6.0\Recipe.Wizard.Repository.AssemblyInfoInputs.cache
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\obj\Debug\net6.0\Recipe.Wizard.Repository.AssemblyInfo.cs
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\obj\Debug\net6.0\Recipe.Wizard.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\obj\Debug\net6.0\Recipe.Wizard.Repository.dll
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\obj\Debug\net6.0\refint\Recipe.Wizard.Repository.dll
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\obj\Debug\net6.0\Recipe.Wizard.Repository.pdb
+C:\Users\Armand\source\repos\Accent_Projects\Recipe-Wizard\API\Recipe.Wizard.Repository\obj\Debug\net6.0\ref\Recipe.Wizard.Repository.dll

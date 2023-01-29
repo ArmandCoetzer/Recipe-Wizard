@@ -24,7 +24,7 @@
         mat-button
         *ngFor="let item of response.recipes; let i = index"
         [ngClass]="{ active: i == currentRecipe }"
-        (click)="currentRecipe = i; checked = [];"
+        (click)="currentRecipe = i; steps.setValue([])"
       >
         {{ item.title }}
       </button>
@@ -34,7 +34,7 @@
     <div class="recipe-container">
       <ng-container *ngIf="response && response.recipes && currentRecipe > -1">
         <div class="main-actions float-right">
-          <button mat-icon-button color="accent" matTooltip="Reset">
+          <button mat-icon-button color="accent" matTooltip="Reset" (click)="emptySelection()">
             <mat-icon>refresh</mat-icon></button
           >&nbsp;
           <button mat-icon-button color="accent" matTooltip="Delete" (click)="ngDelete(response.recipes[currentRecipe].id)">
@@ -55,9 +55,11 @@
         </mat-list>
         <br />
         <p>Steps</p>
-        <mat-selection-list>
+        <mat-selection-list [formControl]="steps">
           <mat-list-option
-            *ngFor="let item of response.recipes[currentRecipe].steps"
+          [disabled]="checkDisabled(i)"
+          [value]="i"
+            *ngFor="let item of response.recipes[currentRecipe].steps; let i = index"
           >
             {{ item }}
           </mat-list-option>

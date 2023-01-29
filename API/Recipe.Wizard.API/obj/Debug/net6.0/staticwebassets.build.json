@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kQ7+d0J7szQIFZauM9Fb/PQFx05TenKBpO+j1Y61swc=",
+  "Hash": "UYsSxQSDsA+IxkutBL5Q6/JDjZOnn0x+ngtvU0i+l2o=",
   "Source": "Recipe.Wizard.API",
   "BasePath": "_content/Recipe.Wizard.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Recipe.Wizard.API\\wwwroot",
       "Source": "Recipe.Wizard.API",
-      "ContentRoot": "C:\\Users\\ashto\\source\\repos\\Recipe.Wizard\\Recipe.Wizard.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Armand\\source\\repos\\Accent_Projects\\Recipe-Wizard\\API\\Recipe.Wizard.API\\wwwroot\\",
       "BasePath": "_content/Recipe.Wizard.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ashto\\source\\repos\\Recipe.Wizard\\Recipe.Wizard.API\\wwwroot\\store.json",
+      "Identity": "C:\\Users\\Armand\\source\\repos\\Accent_Projects\\Recipe-Wizard\\API\\Recipe.Wizard.API\\wwwroot\\store.json",
       "SourceId": "Recipe.Wizard.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ashto\\source\\repos\\Recipe.Wizard\\Recipe.Wizard.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Armand\\source\\repos\\Accent_Projects\\Recipe-Wizard\\API\\Recipe.Wizard.API\\wwwroot\\",
       "BasePath": "_content/Recipe.Wizard.API",
       "RelativePath": "store.json",
       "AssetKind": "All",
