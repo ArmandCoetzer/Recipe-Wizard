@@ -1,0 +1,46 @@
+.mat-drawer {
+    background: #fff;
+    width: 348px;
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.mat-drawer-container {
+    background: #f2f2f2;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.mat-drawer-content {
+    padding: 16px;
+    min-height: 100vh;
+}
+
+.recipe-container {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 16px;
+}
+
+.recipe-navigation button {
+    width: 100%;
+    display: block;
+    text-align: left;
+    color: #e91e63;
+    margin-bottom: 12px;
+}
+
+.recipe-navigation .active {
+    background: #fce4ec;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.main-actions {
+    text-align: right;
+}
+
+.float-right {
+    float: right;
+}

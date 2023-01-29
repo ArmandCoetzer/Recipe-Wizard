@@ -1,0 +1,45 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened>
+        <div class="main-actions">
+            <button mat-stroked-button color="accent">Import&nbsp;<mat-icon>download</mat-icon></button>&nbsp;
+            <button mat-stroked-button color="accent">Export&nbsp;<mat-icon>publish</mat-icon></button>
+        </div>
+        <br/>
+        <br/>
+        <p>Recipe Wizard</p>
+        <mat-divider></mat-divider>
+        <br />
+        <div class="recipe-navigation">
+            <button mat-button class="active">Recipe #1</button>
+            <button mat-button>Recipe #2</button>
+            <button mat-button>Recipe #3</button>
+        </div>
+    </mat-drawer>
+    <mat-drawer-content>
+        <div class="recipe-container">
+            <div class="main-actions float-right">
+                <button mat-icon-button color="accent" matTooltip="Reset"><mat-icon>refresh</mat-icon></button>&nbsp;
+                <button mat-icon-button color="accent" matTooltip="Delete"><mat-icon>delete</mat-icon></button>
+            </div>
+            <h3>Simple Vanilla Cake (45 Minutes)</h3>
+            <p><small>1/28/2023 1:58:37 PM</small></p>
+            <br/>
+            <p>Ingredients</p>
+            <mat-list>
+                <mat-list-item>Pepper</mat-list-item>
+                <mat-list-item>Salt</mat-list-item>
+                <mat-list-item>Paprika</mat-list-item>
+            </mat-list>
+            <br/>
+            <p>Steps</p>
+            <mat-selection-list>
+                <mat-list-option>
+                  Do this
+                </mat-list-option>
+                <mat-list-option>
+                    Do that
+                  </mat-list-option>
+              </mat-selection-list>
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>
