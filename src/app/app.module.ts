@@ -13,6 +13,8 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatListModule} from '@angular/material/list';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { APIService } from './api/api';
 
 @NgModule({
   declarations: [
@@ -31,9 +33,10 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatDialogModule,
     MatListModule,
     MatDividerModule,
-    MatTooltipModule
+    MatTooltipModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [APIService, HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

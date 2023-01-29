@@ -1,45 +1,68 @@
 <mat-drawer-container class="example-container">
-    <mat-drawer mode="side" opened>
-        <div class="main-actions">
-            <button mat-stroked-button color="accent">Import&nbsp;<mat-icon>download</mat-icon></button>&nbsp;
-            <button mat-stroked-button color="accent">Export&nbsp;<mat-icon>publish</mat-icon></button>
+  <mat-drawer mode="side" opened>
+    <div class="main-actions">
+        <input type="file" multiple hidden id="fileUpload" (change)="ngImport($event);"/>
+        <label hidden #fileUploadLabel for="fileUpload"></label>
+      <button mat-stroked-button color="accent" (click)="fileUploadLabel.click();">
+        Import&nbsp;<mat-icon>download</mat-icon></button
+      >&nbsp;
+      <a
+        mat-stroked-button
+        color="accent"
+        target="_blank"
+        href="https://localhost:7194/v1/export"
+        >Export&nbsp;<mat-icon>publish</mat-icon></a
+      >
+    </div>
+    <br />
+    <br />
+    <p>Recipe Wizard</p>
+    <mat-divider></mat-divider>
+    <br />
+    <div class="recipe-navigation" *ngIf="response && response.recipes">
+      <button
+        mat-button
+        *ngFor="let item of response.recipes; let i = index"
+        [ngClass]="{ active: i == currentRecipe }"
+        (click)="currentRecipe = i; checked = [];"
+      >
+        {{ item.title }}
+      </button>
+    </div>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class="recipe-container">
+      <ng-container *ngIf="response && response.recipes && currentRecipe > -1">
+        <div class="main-actions float-right">
+          <button mat-icon-button color="accent" matTooltip="Reset">
+            <mat-icon>refresh</mat-icon></button
+          >&nbsp;
+          <button mat-icon-button color="accent" matTooltip="Delete" (click)="ngDelete(response.recipes[currentRecipe].id)">
+            <mat-icon>delete</mat-icon>
+          </button>
         </div>
-        <br/>
-        <br/>
-        <p>Recipe Wizard</p>
-        <mat-divider></mat-divider>
+        <h3>{{ response.recipes[currentRecipe].title }}</h3>
+        <p>
+          <small>{{ response.recipes[currentRecipe].timestamp }}</small>
+        </p>
         <br />
-        <div class="recipe-navigation">
-            <button mat-button class="active">Recipe #1</button>
-            <button mat-button>Recipe #2</button>
-            <button mat-button>Recipe #3</button>
-        </div>
-    </mat-drawer>
-    <mat-drawer-content>
-        <div class="recipe-container">
-            <div class="main-actions float-right">
-                <button mat-icon-button color="accent" matTooltip="Reset"><mat-icon>refresh</mat-icon></button>&nbsp;
-                <button mat-icon-button color="accent" matTooltip="Delete"><mat-icon>delete</mat-icon></button>
-            </div>
-            <h3>Simple Vanilla Cake (45 Minutes)</h3>
-            <p><small>1/28/2023 1:58:37 PM</small></p>
-            <br/>
-            <p>Ingredients</p>
-            <mat-list>
-                <mat-list-item>Pepper</mat-list-item>
-                <mat-list-item>Salt</mat-list-item>
-                <mat-list-item>Paprika</mat-list-item>
-            </mat-list>
-            <br/>
-            <p>Steps</p>
-            <mat-selection-list>
-                <mat-list-option>
-                  Do this
-                </mat-list-option>
-                <mat-list-option>
-                    Do that
-                  </mat-list-option>
-              </mat-selection-list>
-        </div>
-    </mat-drawer-content>
+        <p>Ingredients</p>
+        <mat-list>
+          <mat-list-item
+            *ngFor="let item of response.recipes[currentRecipe].ingredients"
+            >{{ item }}</mat-list-item
+          >
+        </mat-list>
+        <br />
+        <p>Steps</p>
+        <mat-selection-list>
+          <mat-list-option
+            *ngFor="let item of response.recipes[currentRecipe].steps"
+          >
+            {{ item }}
+          </mat-list-option>
+        </mat-selection-list>
+      </ng-container>
+    </div>
+  </mat-drawer-content>
 </mat-drawer-container>
