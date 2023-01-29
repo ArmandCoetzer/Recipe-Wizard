@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "kQ7+d0J7szQIFZauM9Fb/PQFx05TenKBpO+j1Y61swc=",
+  "Source": "Recipe.Wizard.API",
+  "BasePath": "_content/Recipe.Wizard.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Recipe.Wizard.API\\wwwroot",
+      "Source": "Recipe.Wizard.API",
+      "ContentRoot": "C:\\Users\\ashto\\source\\repos\\Recipe.Wizard\\Recipe.Wizard.API\\wwwroot\\",
+      "BasePath": "_content/Recipe.Wizard.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ashto\\source\\repos\\Recipe.Wizard\\Recipe.Wizard.API\\wwwroot\\store.json",
+      "SourceId": "Recipe.Wizard.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashto\\source\\repos\\Recipe.Wizard\\Recipe.Wizard.API\\wwwroot\\",
+      "BasePath": "_content/Recipe.Wizard.API",
+      "RelativePath": "store.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\store.json"
+    }
+  ]
+}

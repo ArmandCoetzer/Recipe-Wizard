@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ashto\\source\\repos\\Recipe.Wizard\\Recipe.Wizard.API\\wwwroot\\store.json",
+      "PackagePath": "staticwebassets\\store.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Recipe.Wizard.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Recipe.Wizard.API.props",
+      "PackagePath": "build\\Recipe.Wizard.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Recipe.Wizard.API.props",
+      "PackagePath": "buildMultiTargeting\\Recipe.Wizard.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Recipe.Wizard.API.props",
+      "PackagePath": "buildTransitive\\Recipe.Wizard.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

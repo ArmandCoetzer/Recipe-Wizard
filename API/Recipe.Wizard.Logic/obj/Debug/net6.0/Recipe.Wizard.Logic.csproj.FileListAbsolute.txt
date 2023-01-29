@@ -1,0 +1,15 @@
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\bin\Debug\net6.0\Recipe.Wizard.Logic.deps.json
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\bin\Debug\net6.0\Recipe.Wizard.Logic.dll
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\bin\Debug\net6.0\Recipe.Wizard.Logic.pdb
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\bin\Debug\net6.0\Recipe.Wizard.Repository.dll
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\bin\Debug\net6.0\Recipe.Wizard.Repository.pdb
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\obj\Debug\net6.0\Recipe.Wizard.Logic.csproj.AssemblyReference.cache
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\obj\Debug\net6.0\Recipe.Wizard.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\obj\Debug\net6.0\Recipe.Wizard.Logic.AssemblyInfoInputs.cache
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\obj\Debug\net6.0\Recipe.Wizard.Logic.AssemblyInfo.cs
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\obj\Debug\net6.0\Recipe.Wizard.Logic.csproj.CoreCompileInputs.cache
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\obj\Debug\net6.0\Recipe.Wizard.Logic.csproj.CopyComplete
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\obj\Debug\net6.0\Recipe.Wizard.Logic.dll
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\obj\Debug\net6.0\refint\Recipe.Wizard.Logic.dll
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\obj\Debug\net6.0\Recipe.Wizard.Logic.pdb
+C:\Users\ashto\source\repos\Recipe.Wizard\Recipe.Wizard.Logic\obj\Debug\net6.0\ref\Recipe.Wizard.Logic.dll
